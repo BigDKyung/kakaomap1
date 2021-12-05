@@ -70,13 +70,13 @@ function LegendContainer({ title, tag, fileVal }) {
               최적지: <p>{legendText[fileVal.fruit][tag][0]}</p>
             </CommentText>
             <CommentText>
-              적지: <p>{legendText[fileVal.fruit][tag][1]}</p>
+              가능: <p>{legendText[fileVal.fruit][tag][1]}</p>
             </CommentText>
             <CommentText>
-              부적지: <p>{legendText[fileVal.fruit][tag][2]}</p>
+              부적합: <p>{legendText[fileVal.fruit][tag][2]}</p>
             </CommentText>
             <CommentText>
-              불가: <p>{legendText[fileVal.fruit][tag][3]}</p>
+              불가능: <p>{legendText[fileVal.fruit][tag][3]}</p>
             </CommentText>
             {/* <CommentText>
               5급: <p>{legendText[fileVal.fruit][tag][4]}</p>
@@ -88,9 +88,9 @@ function LegendContainer({ title, tag, fileVal }) {
         onMouseEnter={() => onMouseOver()}
         onMouseOut={() => onMouseOut()}>
         <LegendBox color="1">최적지</LegendBox>
-        <LegendBox color="2">적지</LegendBox>
-        <LegendBox color="3">부적지</LegendBox>
-        <LegendBox color="4">불가</LegendBox>
+        <LegendBox color="2">가능</LegendBox>
+        <LegendBox color="3">부적합</LegendBox>
+        <LegendBox color="4">불가능</LegendBox>
         {/* <LegendBox color="5">5급</LegendBox> */}
       </LegendContain>
     </>
