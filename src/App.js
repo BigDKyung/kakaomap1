@@ -9,8 +9,8 @@ function App() {
   const container = useRef(null); // 지도를 표시하는 DOM 객체
   const [map, setMap] = useState({});
   const [center, setCenter] = useState({
-    Lat: 37.54448747133563,
-    Lng: 126.738295688373,
+    Lat: 37.449625092367995,
+    Lng: 126.65322374650603,
   });
   useEffect(() => {
     const map = new kakao.maps.Map(container.current, options);

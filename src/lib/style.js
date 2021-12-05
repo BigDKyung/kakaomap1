@@ -21,7 +21,7 @@ export const options = {
 
 const yearList = () => {
   let tmp = [];
-  for (let i = 1980; i <= 2060; i += 10) {
+  for (let i = 1980; i <= 2060; i += 20) {
     tmp.push(i);
   }
   return tmp;
@@ -61,8 +61,8 @@ export const defaultValue = {
   year: [...temp],
   tag: {
     default: "종합",
-    rain: "연간강수량",
+    rain: "연간 강수량",
     totalaverage: "연평균 기온",
-    average: "1월평균기온",
+    average: "1월 평균기온",
   },
 };

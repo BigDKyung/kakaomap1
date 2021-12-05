@@ -34,7 +34,7 @@ function Header({ map }) {
   return (
     <Positioner>
       <Background>
-        <Logo>Title</Logo>
+        <Logo>이땅어때</Logo>
         <InputAdr map={map} />
       </Background>
     </Positioner>

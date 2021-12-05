@@ -67,31 +67,31 @@ function LegendContainer({ title, tag, fileVal }) {
               {tags[tag]}
             </Title>
             <CommentText>
-              1급: <p>{legendText[fileVal.fruit][tag][0]}</p>
+              최적지: <p>{legendText[fileVal.fruit][tag][0]}</p>
             </CommentText>
             <CommentText>
-              2급: <p>{legendText[fileVal.fruit][tag][1]}</p>
+              적지: <p>{legendText[fileVal.fruit][tag][1]}</p>
             </CommentText>
             <CommentText>
-              3급: <p>{legendText[fileVal.fruit][tag][2]}</p>
+              부적지: <p>{legendText[fileVal.fruit][tag][2]}</p>
             </CommentText>
-            <CommentText>
+            {/* <CommentText>
               4급: <p>{legendText[fileVal.fruit][tag][3]}</p>
             </CommentText>
             <CommentText>
               5급: <p>{legendText[fileVal.fruit][tag][4]}</p>
-            </CommentText>
+            </CommentText> */}
           </Comment>
         </CommentContain>
       )}
       <LegendContain
         onMouseEnter={() => onMouseOver()}
         onMouseOut={() => onMouseOut()}>
-        <LegendBox color="1">1급</LegendBox>
-        <LegendBox color="2">2급</LegendBox>
-        <LegendBox color="3">3급</LegendBox>
-        <LegendBox color="4">4급</LegendBox>
-        <LegendBox color="5">5급</LegendBox>
+        <LegendBox color="1">최적지</LegendBox>
+        <LegendBox color="2">적지</LegendBox>
+        <LegendBox color="3">부적지</LegendBox>
+        {/* <LegendBox color="4">4급</LegendBox>
+        <LegendBox color="5">5급</LegendBox> */}
       </LegendContain>
     </>
   );
