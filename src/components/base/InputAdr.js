@@ -74,7 +74,7 @@ function InputAdr({ map }) {
     place.keywordSearch(input, placeSearchCB);
   };
   const placeSearchCB = (data, status, pagination) => {
-    if (status === kakao.maps.services.Status.OK) {
+    if (status === kakao.maps.services.Status.OK) {//카카오맵이 제대로 연ㄱ결되었나 확인
       let bounds = new kakao.maps.LatLngBounds();
       let infowindow = new kakao.maps.InfoWindow({ zIndex: 1 });
 

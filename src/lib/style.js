@@ -2,10 +2,10 @@
 import oc from "open-color";
 
 export const colorSchema = {
-  1: oc.red[5], //red[deps]
-  2: oc.grape[5], // grape[deps]
-  3: oc.indigo[5], // Indigo[deps]
-  4: oc.cyan[5], // Cyan[deps]
+  1: oc.green[5], //red[deps]
+  2: oc.indigo[5], // grape[deps]
+  3: oc.violet[5], // Indigo[deps]
+  4: oc.red[5], // Cyan[deps]
   5: oc.yellow[5], // yellow[deps]
 };
 

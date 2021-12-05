@@ -88,10 +88,10 @@ function LegendContainer({ title, tag, fileVal }) {
         onMouseEnter={() => onMouseOver()}
         onMouseOut={() => onMouseOut()}>
         <LegendBox color="1">최적지</LegendBox>
-        <LegendBox color="2">가능</LegendBox>
-        <LegendBox color="3">부적합</LegendBox>
-        <LegendBox color="4">불가능</LegendBox>
-        {/* <LegendBox color="5">5급</LegendBox> */}
+        {/* <LegendBox color="2">가능</LegendBox> */}
+        <LegendBox color="3">가능</LegendBox>
+        {/* <LegendBox color="4">불가능</LegendBox> */}
+        <LegendBox color="5">불가능</LegendBox>
       </LegendContain>
     </>
   );
