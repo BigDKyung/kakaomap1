@@ -75,10 +75,10 @@ function LegendContainer({ title, tag, fileVal }) {
             <CommentText>
               부적지: <p>{legendText[fileVal.fruit][tag][2]}</p>
             </CommentText>
-            {/* <CommentText>
-              4급: <p>{legendText[fileVal.fruit][tag][3]}</p>
-            </CommentText>
             <CommentText>
+              불가: <p>{legendText[fileVal.fruit][tag][3]}</p>
+            </CommentText>
+            {/* <CommentText>
               5급: <p>{legendText[fileVal.fruit][tag][4]}</p>
             </CommentText> */}
           </Comment>
@@ -90,8 +90,8 @@ function LegendContainer({ title, tag, fileVal }) {
         <LegendBox color="1">최적지</LegendBox>
         <LegendBox color="2">적지</LegendBox>
         <LegendBox color="3">부적지</LegendBox>
-        {/* <LegendBox color="4">4급</LegendBox>
-        <LegendBox color="5">5급</LegendBox> */}
+        <LegendBox color="4">불가</LegendBox>
+        {/* <LegendBox color="5">5급</LegendBox> */}
       </LegendContain>
     </>
   );

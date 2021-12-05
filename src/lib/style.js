@@ -21,7 +21,7 @@ export const options = {
 
 const yearList = () => {
   let tmp = [];
-  for (let i = 1980; i <= 2060; i += 20) {
+  for (let i = 1980; i <= 2100; i += 20) {
     tmp.push(i);
   }
   return tmp;
